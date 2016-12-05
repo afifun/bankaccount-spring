@@ -6,19 +6,19 @@ import javax.persistence.*;
 public class Account {
 	@Id
 	@GeneratedValue
-	private Long id;
+	public Long id;
 	
 	@Column
-	private int balance;
+	public int balance;
 	
 	@Column
-	private String rekening;
+	public String rekening;
 	
 	@Column
-	private int customerId;
+	public int customerId;
 	
 	@Column
-	private int interest;
+	public int interest;
 
 	public int getInterest() {
 		return interest;
